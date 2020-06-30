@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Control Panel</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
+
+        <style>
+            body{
+                font-family: 'Acme';font-size: 22px;
+                margin: 100px;
+                padding: 0;
+                height: 100vh;
+                align-items: center;
+                justify-content: center;
+                background-color: #fecea8;
+            }
+
+            .btn{
+                margin:  20px;
+                width: 240px;
+                height: 80px;
+                border: none;
+                background-color: #2a363b;
+                color: #e84a5f;
+                font-size: 18px;
+                border-radius: 6px;
+                outline: none;
+                cursor: pointer;
+                transition: .3s linear;
+            }
+
+            .btnR:hover{
+                transform: rotateX(15deg);
+                box-shadow: 15px 0 0 0   #ff847c;
+            }
+
+            .btnL:hover{
+                transform: rotateX(-15deg);
+                box-shadow: -15px 0 0 0 #ff847c;
+            }
+
+            .btnF:hover{
+
+                transform: rotateY(15deg);
+                box-shadow: 0 -15px 0 0 #ff847c;
+            }
+
+            .btnB:hover{
+
+                transform: rotateY(-15deg);
+                box-shadow: 0 15px 0 0 #ff847c;
+            }
+            .btnS:hover{
+                transform: rotateY(-15deg);
+                box-shadow: 0 0 0 15px #ff847c;
+            }
+            .margin {
+                margin-left:305px;
+            }
+        </style>
+
+
+    </head>
+    <body>
+
+        <div>   
+            <button  class="btn btnF  margin"><h2>Forward</h2></button>    
+            <br>
+            <button class="btn btnL "><h2>Left</h2></button>
+            <button class="btn btnS "><h2>Stop<h/2></button>
+            <button class="btn btnR "><h2>Right</h2></button>
+            <br>
+            <button  class="btn btnB  margin"><h2>Backwoard</h2></button>
+        </div>
+        <br>        
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <p style="color:#2a363b;" >
+            Desighned by Khalid ALshahham
+
+
+        </p> 
+    </body>
+</html>
